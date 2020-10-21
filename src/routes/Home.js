@@ -26,14 +26,14 @@ const Home = () => {
       <Header />
       <Heading stays={0} />
       <Grid>
-        {[0, 1, 2, 3, 4, 5, 6].map((item) => (
+        {[0, 1, 2, 3, 4, 5, 6].map((item,index) => (
           <div className="max-h-sm">
             <div className="flex flex-col">
               <div className="flex-shrink rounded-xl">
-                <Shimmer height={250} width={350} key={item} />
+                <Shimmer height={200} width={300} key={item} />
               </div>
               <div className="mt-4">
-                <Shimmer height={16} width={100} />
+                <Shimmer height={16} key={index+item} width={100} />
               </div>
             </div>
           </div>
