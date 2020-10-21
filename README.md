@@ -1,7 +1,7 @@
 This project done for the devchallenges.io using figma design prototype given in the site.
 It uses local data for frontend prototype. The api part is in development phase and will also be deployed soon.
 
-Demo link [windbnb-eight.vercel.com](https://windbnb-eight.vercel.com);
+Demo link [windbnb-eight.vercel.app](https://windbnb-eight.vercel.app);
 
 Project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
